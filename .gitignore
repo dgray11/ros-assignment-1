@@ -1,0 +1,11 @@
+# Catkin build artifacts
+build/
+devel/
+install/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
