@@ -1,0 +1,15 @@
+<launch>
+
+  <!-- Start turtlesim -->
+  <node pkg="turtlesim"
+        type="turtlesim_node"
+        name="turtlesim"
+        output="screen"/>
+
+  <!-- Hunter / Runner controller -->
+  <node pkg="p1_dgray11"
+        type="hunt_runner.py"
+        name="hunter_runner"
+        output="screen"/>
+
+</launch>
